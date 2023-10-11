@@ -1,6 +1,7 @@
 package com.example.macroproject
 
 import android.content.Intent
+import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -13,6 +14,7 @@ class Onboarding2Activity : AppCompatActivity(), View.OnClickListener {
 
         val btnOnboarding2: Button = findViewById(R.id.myButton2)
         btnOnboarding2.setOnClickListener(this)
+
     }
 
     override fun onClick(Y: View) {
